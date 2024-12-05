@@ -25,5 +25,5 @@
 
 <script lang="ts" setup>
 import { useLongList } from "@/composables/useLongList";
-const { longList } = useLongList(20);
+const { longList } = useLongList(50);
 </script>

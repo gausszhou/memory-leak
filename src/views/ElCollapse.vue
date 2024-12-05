@@ -63,7 +63,7 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 import { useLongList } from "@/composables/useLongList";
-const { longList } = useLongList(10);
+const { longList } = useLongList(20);
 const activeNames = ref(['1'])
 const handleChange = (val: string[]) => {
   console.log(val)

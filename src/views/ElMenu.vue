@@ -49,5 +49,5 @@
 
 <script lang="ts" setup>
 import { useLongList } from "@/composables/useLongList";
-const { longList } = useLongList(10);
+const { longList } = useLongList(20);
 </script>
