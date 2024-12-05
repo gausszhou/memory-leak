@@ -1,16 +1,23 @@
-import { createRouter, createWebHistory } from 'vue-router';  
+import { createRouter, createWebHistory } from "vue-router";
 
-export const routes = [  
-  {  
-    path: '/',  
-    name: 'Home',  
-    component: () => import('@/views/Home.vue'),
+export const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: () => import("@/views/Home.vue"),
   },
-];  
+  {
+    path: "/test",
+    name: "Test",
+    component: () => import("@/views/Test.vue"),
+  },
+];
 
-const router = createRouter({  
-  history: createWebHistory(),  
-  routes,  
-});  
+const router = createRouter({
+  history: createWebHistory(
+    import.meta.env.MODE === "development" ? "/" : "/vue-memory-leak"
+  ),
+  routes,
+});
 
 export default router;
