@@ -11,6 +11,11 @@ export const routes = [
     name: "Test",
     component: () => import("@/views/Test.vue"),
   },
+  {
+    path: "/el-dropdown",
+    name: "ElDropdown",
+    component: () => import("@/views/ElDropdown.vue"),
+  },
 ];
 
 const router = createRouter({
