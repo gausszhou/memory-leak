@@ -11,8 +11,9 @@ export default {
 </script>  
 
 <style scoped>  
-main {  
-  padding: 1em;
+main {
   background-color: #fff;
+  overflow-y: auto;
+  padding: 1em;
 }  
 </style>

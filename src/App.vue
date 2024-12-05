@@ -40,4 +40,7 @@ export default {
   width: 200px;
   border-right: 1px solid #f8f9fa;
 }
+.app-body .content {
+  flex: 1;
+}
 </style>

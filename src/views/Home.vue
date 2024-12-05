@@ -1,6 +1,6 @@
 <template>  
   <div>  
-    <h2>Home</h2>
+    <h2 style="text-align: left;">Home</h2>
   </div>  
 </template>  
 

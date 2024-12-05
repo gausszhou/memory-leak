@@ -12,14 +12,19 @@ export const routes = [
     component: () => import("@/views/Test.vue"),
   },
   {
-    path: "/el-menu",
-    name: "ElMenu",
-    component: () => import("@/views/ElMenu.vue"),
+    path: "/el-collapse",
+    name: "ElCollapse",
+    component: () => import("@/views/ElCollapse.vue"),
   },
   {
     path: "/el-dropdown",
     name: "ElDropdown",
     component: () => import("@/views/ElDropdown.vue"),
+  },
+  {
+    path: "/el-menu",
+    name: "ElMenu",
+    component: () => import("@/views/ElMenu.vue"),
   },
 ];
 

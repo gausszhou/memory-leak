@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li style="margin-bottom: 4px;" v-for="(item, index) in longList" :key="index" :title="item">
+      <li style="margin-bottom: 4px; text-align: left;" v-for="(item, index) in longList" :key="index" :title="item">
         <el-dropdown>
           <el-button type="primary">
             Dropdown List<el-icon class="el-icon--right"
