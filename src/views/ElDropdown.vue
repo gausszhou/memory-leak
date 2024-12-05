@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li style="margin-bottom: 4px;" v-for="(item, index) in longList" :key="index">
+      <li style="margin-bottom: 4px;" v-for="(item, index) in longList" :key="index" :title="item">
         <el-dropdown>
           <el-button type="primary">
             Dropdown List<el-icon class="el-icon--right"
@@ -25,5 +25,5 @@
 
 <script lang="ts" setup>
 import { useLongList } from "@/composables/useLongList";
-const { longList } = useLongList(100);
+const { longList } = useLongList(20);
 </script>

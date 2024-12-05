@@ -25,6 +25,7 @@ ul {
 li {
   text-align: left;
   padding-left: 4px;
+  margin-bottom: 8px;
   cursor: pointer;
 }
 li:hover {
